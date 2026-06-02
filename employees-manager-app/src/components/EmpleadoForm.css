@@ -1,0 +1,70 @@
+.form-card{
+
+  background:white;
+
+  padding:25px;
+
+  border-radius:16px;
+
+  box-shadow:
+    0 4px 15px rgba(0,0,0,.08);
+
+  margin-bottom:30px;
+}
+
+.form-card h2{
+  margin-bottom:20px;
+  color:#334155;
+}
+
+.form-row{
+
+  display:grid;
+
+  grid-template-columns:
+    repeat(4,1fr);
+
+  gap:15px;
+}
+
+.form-row input,
+.form-row select{
+
+  padding:12px;
+
+  border:1px solid #d1d5db;
+
+  border-radius:10px;
+
+  outline:none;
+}
+
+.form-row input:focus,
+.form-row select:focus{
+
+  border-color:#14b8a6;
+}
+
+.form-card button{
+
+  margin-top:15px;
+
+  border:none;
+
+  padding:12px 20px;
+
+  border-radius:10px;
+
+  background:#7dd3c7;
+
+  color:white;
+
+  font-weight:bold;
+
+  cursor:pointer;
+}
+
+.form-card button:hover{
+
+  background:#5cc7b7;
+}

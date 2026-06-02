@@ -1,0 +1,47 @@
+.departamentos-container{
+  margin-top: 30px;
+}
+
+.departamentos-title{
+  margin-bottom: 20px;
+  color: #7dd3c7;
+  font-size: 2rem;
+}
+
+.departamentos-table{
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+.departamentos-table th{
+  background: #f8fafc;
+  padding: 18px;
+  text-align: left;
+  color: #64748b;
+}
+
+.departamentos-table td{
+  padding: 18px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.edit-btn{
+  border: none;
+  background: none;
+  color: #7dd3c7;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.delete-btn{
+  border: none;
+  background: none;
+  color: #ef4444;
+  font-weight: bold;
+  cursor: pointer;
+}

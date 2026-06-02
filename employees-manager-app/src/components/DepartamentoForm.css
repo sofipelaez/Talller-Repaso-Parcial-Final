@@ -1,0 +1,39 @@
+.departamento-form{
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+  margin-bottom: 30px;
+}
+
+.departamento-form h2{
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.form-row{
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.form-row input{
+  flex: 1;
+  padding: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+}
+
+.form-btn{
+  background: #7dd3c7;
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form-btn:hover{
+  background: #5fc2b4;
+}
