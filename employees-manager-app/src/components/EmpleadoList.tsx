@@ -87,7 +87,7 @@ export default function EmpleadoList({ actualizar }: Props) {
 
   return (
     <div className="empleados-container">
-      <h2 className="empleados-title">
+      <h2 className="departamentos-title">
         Gestión de Empleados
       </h2>
 
@@ -97,7 +97,7 @@ export default function EmpleadoList({ actualizar }: Props) {
             key={emp.id}
             className="empleado-card"
           >
-            <h3>{emp.nombre}</h3>
+            <h2>{emp.nombre}</h2>
 
             <p>
               Puesto: {emp.puesto}
